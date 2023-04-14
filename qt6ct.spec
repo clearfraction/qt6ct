@@ -1,5 +1,5 @@
 Name     : qt6ct
-Version  : 0.7
+Version  : 0.8
 Release  : 1
 URL      : https://github.com/trialuser02/qt6ct
 Source0  : https://github.com/trialuser02/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz
@@ -9,11 +9,8 @@ License  : BSD-2-Clause
 BuildRequires : cmake
 BuildRequires : mesa-dev
 BuildRequires : qt6base-dev
-BuildRequires : qt6base-staticdev
 BuildRequires : xkbcomp-dev
-BuildRequires : chrpath
 BuildRequires : qttools-dev
-BuildRequires : qtbase-dev
 BuildRequires:  Vulkan-Loader-dev Vulkan-Loader 
 BuildRequires:  Vulkan-Headers-dev Vulkan-Tools Vulkan-Headers
 BuildRequires : pkgconfig(wayland-client)
