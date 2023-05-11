@@ -9,10 +9,11 @@ License  : BSD-2-Clause
 BuildRequires : cmake
 BuildRequires : mesa-dev
 BuildRequires : qt6base-dev
+BuildRequires : qt6svg-dev qt6tools-dev
 BuildRequires : xkbcomp-dev
 BuildRequires : qttools-dev
-BuildRequires:  Vulkan-Loader-dev Vulkan-Loader 
-BuildRequires:  Vulkan-Headers-dev Vulkan-Tools Vulkan-Headers
+BuildRequires:  Vulkan-Loader-dev 
+BuildRequires:  Vulkan-Headers-dev
 BuildRequires : pkgconfig(wayland-client)
 BuildRequires : pkgconfig(wayland-cursor)
 BuildRequires : pkgconfig(wayland-protocols)
