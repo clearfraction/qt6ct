@@ -1,5 +1,5 @@
 Name     : qt6ct
-Version  : 0.8
+Version  : 0.9
 Release  : 1
 URL      : https://github.com/trialuser02/qt6ct
 Source0  : https://github.com/trialuser02/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz
